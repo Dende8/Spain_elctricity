@@ -102,8 +102,9 @@ def dibujar_contexto(ultimos_dem, ultimos_sol, fecha_manana, pred_demanda, pred_
     ax.set_ylabel("GWh")
     ax.spines[["top", "right"]].set_visible(False)
     ax.grid(axis="y", alpha=0.25)
-    ax.legend(frameon=False, ncol=2, loc="upper left")
+    ax.legend(frameon=False, ncol=2, loc="upper center", bbox_to_anchor=(0.5, -0.15))
     fig.tight_layout()
+    fig.subplots_adjust(bottom=0.28)
     return fig
 
 
@@ -118,8 +119,9 @@ def dibujar_backtest(bt, titulo, color_serie):
     ax.set_ylabel("GWh")
     ax.spines[["top", "right"]].set_visible(False)
     ax.grid(axis="y", alpha=0.25)
-    ax.legend(frameon=False, ncol=3, loc="upper left", fontsize=8)
+    ax.legend(frameon=False, ncol=3, loc="upper center", bbox_to_anchor=(0.5, -0.22), fontsize=8)
     fig.tight_layout()
+    fig.subplots_adjust(bottom=0.32)
     return fig
 
 
