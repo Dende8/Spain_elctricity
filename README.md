@@ -115,7 +115,7 @@ El panel permite introducir la temperatura y la radiación previstas para el dí
 
 - `LinearRegression` extrapola linealmente fuera del rango histórico observado (2021-2026); sus predicciones son fiables dentro de ese rango, pero no están garantizadas ante eventos extremos.
 - El calendario de festivos considerado es nacional y no incluye festivos autonómicos.
-- Posibles ampliaciones: ajuste de hiperparámetros del `RandomForestRegressor` con validación cruzada temporal, incorporación de modelos específicos de series temporales (Holt-Winters, SARIMA) y despliegue continuo de la aplicación.
+- Posibles ampliaciones: ajuste de hiperparámetros del `RandomForestRegressor` con validación cruzada temporal, incorporación de modelos específicos de series temporales (Holt-Winters, SARIMA).
 
 ---
 
