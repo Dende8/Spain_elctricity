@@ -4,3 +4,5 @@ numpy==2.5.3
 scikit-learn==1.9.1
 joblib==1.6.0
 holidays==0.105
+seaborn==0.13.2
+matplotlib==3.11.2
